@@ -6,4 +6,4 @@ test:
 
 production:
   adapter: redis
-  url: redis://localhost:6379/1
+  url: redis://redistogo:9bc5a3ec68127e7a1482138e886f9a15@scat.redistogo.com:11650/ # Use heroku config | grep REDISTOGO_URL to find url for redis from heroku
